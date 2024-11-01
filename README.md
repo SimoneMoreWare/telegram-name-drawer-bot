@@ -3,6 +3,8 @@ Telegram Name Drawer Bot
 
 A simple Telegram bot that allows users to draw a name randomly from a predefined list. Each user can draw only once, simulating a lottery or drawing from an urn.
 
+![wallPaper](https://github.com/SimoneMoreWare/telegram-name-drawer-bot/blob/main/wallpaper.jpg)
+
 Features
 --------
 
