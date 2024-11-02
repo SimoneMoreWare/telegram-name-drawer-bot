@@ -11,6 +11,8 @@ Features
 *   Users can start a conversation and draw a name.
 *   Each user can only draw once.
 *   Provides feedback if there are no more names left to draw.
+*   Management of restrictions, allowing users to specify who they cannot draw.
+*   Support for generic names: User IDs are not directly visible in the codebase to maintain privacy.
 
 Requirements
 ------------
@@ -50,6 +52,7 @@ Global Variables
 *   `TELEGRAM_TOKEN`: The token provided by BotFather. Replace the placeholder with your actual token.
 *   `names`: A list of names from which the bot can randomly draw. Modify this list to change the available names.
 *   `drawn_users`: A dictionary that tracks users who have already drawn a name. This ensures each user can draw only once.
+*   `restrictions`: A JSON file containing the restrictions for each user, specifying who they cannot draw.
 
 Contributing
 ------------
